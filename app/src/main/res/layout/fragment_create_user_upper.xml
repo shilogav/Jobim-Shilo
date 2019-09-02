@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/upper"
+    android:layout_width="match_parent"
+    android:layout_height="280dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:windowSoftInputMode="stateVisible"
+    tools:context="com.hyperactive.shilo.jobimshilo.enterance_and_sign.CreateUserFragmentUpper">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.08"
+        app:srcCompat="@drawable/create_user_background" />
+</LinearLayout>

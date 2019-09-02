@@ -1,0 +1,47 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hyperactive.shilo.jobimshilo.main_desktop_jobs.CenterFragment"
+    android:id="@+id/mainContainer">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_width="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <include layout="@layout/fragment_right"
+                android:layout_height="match_parent"
+                android:layout_marginStart="18dp"
+                android:layout_alignParentTop="true"
+                android:layout_width="410dp"
+                android:layout_weight="1" />
+
+            <include layout="@layout/fragment_center"
+                android:layout_height="match_parent"
+                android:layout_weight="0.67"
+                android:layout_width="410dp"
+                android:visibility="visible" />
+
+            <include layout="@layout/fragment_left"
+                android:layout_height="match_parent"
+                android:layout_width="410dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</HorizontalScrollView>
+
+

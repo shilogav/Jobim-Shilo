@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">JobimShilo</string>
+    <string name="titleEnteranceTextView">JOBIM</string>
+    <string name="enteranceActivity">enteranceActivity</string>
+    <string name="enteranceDialogTitle">אינך מחובר לרשת\u200e</string>
+    <string name="enteranceDialogMessege">בלי חיבור לאינטרנט אנחנו לא יכולים למצוא לך גובים\u200e</string>
+    <string name="ishur">אישור\u200e</string>
+    <string name="areaCode">+972</string>
+    <string name="fill_number">אנא הכנס מספר טלפון\u200e</string>
+    <string name="enterCodeNumber">אנא הכנס את הקוד שקיבלת\u200e</string>
+    <string name="insert">אישור\u200e</string>
+    <string name="action_bar_name">JOBIM</string>
+    <string name="mistake">ארעה תקלה, התוכנה תיסגר</string>
+    <string name="enterance_pic">the enterance picture</string>
+    <string name="no_connection_pic">no connection picture</string>
+
+    <string name="image_and_username">שם פרטי ומשפחה\u200e</string>
+    <string name="my_details">הפרטים שלי\u200e</string>
+    <string name="alerts">התראות\u200e</string>
+    <string name="my_jobs">הג\'ובים שלי\u200e</string>
+    <string name="find_jobs">מצא ג\'ובים\u200e</string>
+    <string name="smart_agent">הסוכן החכם\u200e</string>
+    <string name="info">קצת עלינו\u200e</string>
+    <string name="add_job">הוסף ג\'וב\u200e</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="accept">אשר\u200e</string>
+    <string name="cancel">בטל\u200e</string>
+    <string name="sorted_by">הצג לפי\u200e</string>
+
+
+    <string name="job">ג\'וב\u200e</string>
+    <string name="place">מיקום\u200e</string>
+    <string name="company">חברה\u200e</string>
+
+
+    <string name="find_job">מצא ג\'וב\u200e</string>
+    <string name="find_job_button">מציג את כל הג\'ובים סביבי\u200e</string>
+    <string name="find_job_button2">חיפוש הג\'ובים\u200e</string>
+
+    <string name="barman">ברמן\\נית\u200e</string>
+
+    <string name="search_by_company">כדי למצוא חברות חפש כאן\u200e</string>
+
+    <string name="add_to_favorites">נוסף למועדפים\u200e</string>
+    <string name="remove_from_favorites">נמחק מהמועדפים\u200e</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    !--My details fragment
+
+    <string name="city">עיר\u200e</string>
+    <string name="email">מייל\u200e</string>
+    <string name="year_of_birth">שנת לידה\u200e</string>
+    <string name="accept_details">אישור\u200e</string>
+    <string name="error">שגיאה\u200e</string>
+    <string name="field_empty">אחד מהשדות ריקים, פרטים חייבים להיות מלאים\u200e</string>
+    <string name="details_saved">פרטים נשמרו\u200e</string>
+    <string name="picture_dialog">בחר מקור ליצירת תמונה\u200e</string>
+    <string name="picture_dialog_camera">מצלמה\u200e</string>
+    <string name="picture_dialog_gallery">גלריה\u200e</string>
+
+
+    !--My details fragment-->settings
+    <string name="settings">הגדרות\u200e</string>
+
+    !--Alert fragment--
+    <string name="smart_agent_found_job">שלום, הסוכן החכם מצא משרה עבורך!!\u200e</string>
+
+    !--Info fragment--
+    <string name="title_info_job_close">הג\'וב שלך קרוב מתמיד!\u200e</string>
+    <string name="content_info_job_close">מצאו בקלות את כל הג\'ובים החדשים שמתעדכנים סביבכם בכל רגע…\n ראיתם ג\'וב שתפור על חבר או חברה שלכם? שתפו את המשרה במהירות!\nתנו כמה פרטים על עצמכם,וסמסו לבוס הבא שלכם!\u200e</string>
+
+    !--Smart Agent fragment--
+    <string name="gps_on">הסוכן החכם לא מצא משרות בשבילך\u200e</string>
+    <string name="gps_off">על מנת לראות ג\'ובים קרובים למיקומך, עליך לאפשר גישה לנתוני מיקום\u200e</string>
+
+    !--MY Jobs fragment--
+    <string name="favorite_button">מועדפים\u200e</string>
+    <string name="searched_jobs_button">פניתי ל..\u200e</string>
+
+    !--NEW Jobs fragment--
+    <string name="title_company">אנא מלאו את הפרטים הבאים\u200e</string>
+    <string name="company_name">שם החברה\u200e</string>
+    <string name="branch_name">שם הסניף(לא חובה)\u200e</string>
+
+    <string name="please_choose_kind_of_job">אנא ביחרו את תחום המקצוע:\u200e</string>
+
+    <string name="counter_worker">עובד\\ת דלפק\u200e</string>
+    <string name="host">מארח\\ת\u200e</string>
+    <string name="messenger">שליח\\ה\u200e</string>
+    <string name="cleaner">עובד\\ת ניקיון\u200e</string>
+    <string name="maintenance_man">עובד\\ת תחזוקה\u200e</string>
+    <string name="service_and_sale">נציג\\ת שירות ומכירה\u200e</string>
+    <string name="cashier">קופאי\\ת\u200e</string>
+    <string name="usher">סדרן\\ית\u200e</string>
+    <string name="waiter">מלצר\\ת\u200e</string>
+    <string name="guard">מאבטח\\ת\u200e</string>
+    <string name="driver">נהג\\ת\u200e</string>
+
+    <string name="location_of_job">מיקום המשרה:\u200e</string>
+    <string name="search"> מחפשת \u200e</string>
+    <string name="enter_name_of_company">חובה לכתוב את שם החברה..\u200e</string>
+    <string name="choose_kind_of_job">אנא בחר את תחום המקצוע..\u200e</string>
+    <string name="enter_info_title">אנא כתוב כותרת..\u200e</string>
+
+    <string name="short_title">כתוב כותרת(משפט אחד)\u200e</string>
+    <string name="content_title">תנו תיאור קצר של המשרה בשנים-שלושה משפטים\u200e</string>
+    <string name="address">כתובת(אנא בחר כתובת תקינה)\u200e</string>
+
+    <string name="new_job_create_job_button">אישור הפרטים ויצירת המשרה\u200e</string>
+    <string name="createJob">תודה! המשרה נוצרת, אנא המתן..\u200e</string>
+    <string name="error_message">חסרים נתונים: \n\u200e</string>
+
+    <string name="send_message">היי, ראיתי את מודעת הדרושים שפירסמת. המשרה רלוונטית, אשמח שתיצור עימי קשר. \n\u200e</string>
+    <string name="send_mail_object">שלום,מעוניין במשרה שפירסמת\u200e</string>
+
+    <string name="more_info_dialog">בהרחבה: \n\u200e</string>
+    <string name="more_info_button">למידע נוסף: \n\u200e</string>
+
+    !--ThirdTab fragment--
+    <string name="super_pharm">super-pharm</string>
+    <string name="samsung">samsung</string>
+    <string name="delek">דלק\u200e</string>
+
+    <string name="mobileye">מובילאיי\u200e</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="no_gps_permission">על מנת שנחשב מרחק המשרה ממקומך, אנא אשר שירותי מיקום.\u200e</string>
+    <string name="search_by_location">חפש לפי מיקום\u200e</string>
+    <string name="search_by_location2">לחץ על המיקום הרצוי במפה ולחץ אשר\u200e</string>
+
+    <string name="there_are_no_jobs">לא נמצאו משרות באזור המבוקש, חפש שוב\u200e</string>
+
+    <string name="send_mail">שלח מייל\u200e</string>
+    <string name="send_sms">שלח הודעה\u200e</string>
+    <string name="call_phone">התקשר\u200e</string>
+
+    <string name="exit">יציאה\u200e</string>
+    <string name="exit_content">האם ברצונך לצאת?\u200e</string>
+
+    <string name="loading">מוריד נתונים..\u200e</string>
+
+</resources>

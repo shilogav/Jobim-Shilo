@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hyperactive.shilo.jobimshilo.drawer_layout.PublisNewJobFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="50dp"
+        android:id="@+id/manu">
+
+        <ImageButton
+            android:layout_width="40dp"
+            app:srcCompat="@mipmap/map_48"
+            android:id="@+id/locationButton"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:background="@color/red" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/details"
+            android:id="@+id/moreInfoButton"
+            android:layout_weight="1"
+            android:background="@color/red" />
+
+        <ImageButton
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/business"
+            android:id="@+id/kindOfJobButton"
+            android:layout_weight="1"
+            android:layout_width="40dp"
+            android:background="@color/red" />
+
+        <ImageButton
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/company"
+            android:id="@+id/companyButton"
+            android:layout_weight="1"
+            android:layout_width="20dp"
+            android:background="@color/red" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/containerNewJob"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/manu">
+
+    </FrameLayout>
+
+</RelativeLayout>

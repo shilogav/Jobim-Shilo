@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:context="com.hyperactive.shilo.jobimshilo.drawer_layout.MyDetailsFragment"
+    android:background="@color/orange">
+
+    <com.hyperactive.shilo.jobimshilo.drawer_layout.RoundedImageView2
+        android:id="@+id/userPicture"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:layout_x="161dp"
+        android:layout_y="72dp"
+        android:cropToPadding="false" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:nextFocusForward="@+id/cityName"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/userPicture"
+        android:layout_marginTop="24dp"
+        android:layout_x="15dp"
+        android:layout_y="220dp"
+        android:background="@drawable/round_narrow"
+        android:maxLines="1"
+        android:paddingLeft="100dp"
+        android:paddingRight="60dp"
+        android:paddingTop="7dp"
+        android:textColor="@color/green"
+        android:textColorHint="@color/green"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/cityName"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/userName"
+        android:layout_marginTop="27dp"
+        android:layout_x="15dp"
+        android:layout_y="270dp"
+        android:background="@drawable/round_narrow"
+        android:hint="@string/city"
+        android:maxLines="1"
+        android:paddingLeft="100dp"
+        android:paddingRight="60dp"
+        android:paddingTop="8dp"
+        android:textColor="@color/green"
+        android:textColorHint="@color/green"
+        android:textSize="18sp" />
+
+    <EditText
+        android:hint="@string/year_of_birth"
+        android:textColorHint="@color/green"
+        android:id="@+id/yearOfBirth"
+        android:textSize="18sp"
+        android:paddingTop="8dp"
+        android:inputType="number"
+        android:background="@drawable/round_narrow"
+        android:paddingRight="60dp"
+        android:textColor="@color/green"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:layout_x="15dp"
+        android:layout_y="320dp"
+        android:paddingLeft="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/cityName"
+        android:layout_alignStart="@+id/cityName" />
+
+    <EditText
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:hint="@string/email"
+        android:textColorHint="@color/green"
+        android:id="@+id/emailOfUser"
+        android:textSize="18sp"
+        android:paddingTop="8dp"
+        android:background="@drawable/round_narrow"
+        android:paddingRight="60dp"
+        android:textColor="@color/green"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:layout_x="15dp"
+        android:layout_y="370dp"
+        android:paddingLeft="100dp"
+        android:layout_marginTop="55dp"
+        android:layout_alignTop="@+id/yearOfBirth"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="@string/accept_details"
+        android:layout_width="155dp"
+        android:layout_height="48dp"
+        android:layout_x="108dp"
+        android:layout_y="435dp"
+        android:id="@+id/acceptButton"
+        android:background="@drawable/round_narrow"
+        android:textColor="@color/green"
+        android:layout_below="@+id/emailOfUser"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+
+</RelativeLayout>

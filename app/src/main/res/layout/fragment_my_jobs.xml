@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hyperactive.shilo.jobimshilo.drawer_layout.MyJobsFragment"
+    android:background="@drawable/my_jobs_buttons">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@android:color/transparent"
+        android:id="@+id/centerContainerMyJobs"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+    </FrameLayout>
+
+    <Button
+        android:text="@string/favorite_button"
+        android:id="@+id/favoriteButton"
+        android:background="@color/white"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="99dp"
+        android:layout_alignTop="@+id/searchedJobsButton"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="@string/searched_jobs_button"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/searchedJobsButton"
+        android:background="@drawable/my_jobs_buttons"
+        android:layout_marginTop="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/favoriteButton" />
+
+</RelativeLayout>

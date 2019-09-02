@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/search_job_layout"
+    android:background="@color/white"
+    android:clickable="true"
+    tools:context="com.hyperactive.shilo.jobimshilo.search_jobs.SearchJobsFragment"
+    android:orientation="horizontal">
+
+
+    <Button
+        android:text="@string/accept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchJobButtonAccept"
+        android:background="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/colorPrimary" />
+
+
+    <Button
+        android:text="@string/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchJobButtonCancel"
+        android:background="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:text="@string/sorted_by"
+        android:id="@+id/searchJobtextView"
+        android:textSize="18sp"
+        android:clickable="true"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/searchJobButtonAccept"
+        android:layout_alignBottom="@+id/searchJobButtonAccept"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.v4.app.FragmentTabHost
+        android:layout_height="match_parent"
+        android:layout_toStartOf="@+id/searchJobButtonAccept"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/searchJobButtonAccept"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/tabHost">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+    </android.support.v4.app.FragmentTabHost>
+
+</RelativeLayout>

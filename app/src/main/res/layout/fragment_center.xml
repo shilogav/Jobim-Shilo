@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/center_Container"
+    android:layout_width="match_parent"
+    android:layout_height="330dp"
+    android:background="@drawable/sky_3"
+    tools:context="com.hyperactive.shilo.jobimshilo.main_desktop_jobs.CenterFragment">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/companyTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="company name"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_above="@+id/textView16"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/search"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_above="@+id/kindOfJobTextView"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/kindOfJobTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="kind of job"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButtonMore"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/imageButtonMore"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/more" />
+
+    <TextView
+        android:id="@+id/textViewLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/location_of_job"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="14dp" />
+
+    <TextView
+        android:id="@+id/textViewDistance"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</RelativeLayout>

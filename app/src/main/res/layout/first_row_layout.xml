@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/containerFirstRow"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="200dp"
+    android:background="@drawable/for_drawer_layout1"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/firstRowContainer"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="40dp"
+        android:layout_weight="0.00"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:orientation="vertical">
+
+
+        <com.hyperactive.shilo.jobimshilo.drawer_layout.RoundedImageView2
+            android:id="@+id/imageViewFirstRow"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="17dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <TextView
+            android:id="@+id/textViewFirstRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="13dp"
+            android:layout_marginEnd="17dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="TextView" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/secondRowContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_marginLeft="40dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewSecondRow"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="TextView" />
+
+        <ImageView
+            android:id="@+id/imageViewSecondRow"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/textViewFirstRow"
+            android:layout_marginLeft="25dp"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/thirdRowContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewThirdRow"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imageViewFourthRow"
+            android:layout_alignStart="@+id/textViewSecondRow"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="TextView" />
+
+        <ImageView
+            android:id="@+id/imageViewThirdRow"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/imageViewSecondRow"
+            android:layout_marginLeft="25dp"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fourthRowContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginLeft="40dp"
+        android:layout_weight="0.00"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewFourthRow"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textViewThirdRow"
+            android:layout_below="@+id/textViewThirdRow"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="TextView" />
+
+        <ImageView
+            android:id="@+id/imageViewFourthRow"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/imageViewThirdRow"
+            android:layout_marginLeft="25dp"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+    </LinearLayout>
+
+</LinearLayout>

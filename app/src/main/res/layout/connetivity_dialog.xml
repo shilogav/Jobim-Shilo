@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="180dp"
+
+    android:layout_height="200dp"
+    android:background="@drawable/find_jobs_button_shape"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/object"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="@+id/center"
+        android:text="@string/enteranceDialogTitle"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="55dp"
+        android:text="@string/enteranceDialogMessege"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/ishur"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:text="@string/ishur"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

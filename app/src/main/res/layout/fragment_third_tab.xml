@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.hyperactive.shilo.jobimshilo.search_jobs.ThirdTabFragment"
+    android:id="@+id/second_tab_layout">
+
+    <!-- TODO: Update blank fragment layout -->
+<!--
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="21dp"
+        android:queryHint="@string/search_by_company"
+        android:id="@+id/searchViewCompany"
+        android:iconifiedByDefault="false"/>
+    -->
+
+    <ListView
+        android:id="@+id/companyList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

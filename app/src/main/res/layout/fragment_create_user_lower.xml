@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@color/white_transparent"
+    android:orientation="horizontal"
+    android:windowSoftInputMode="stateAlwaysVisible"
+    tools:context="com.hyperactive.shilo.jobimshilo.enterance_and_sign.CreateUserFragmentLower">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/areaCodeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/areaCode"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/insertNumberEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="@string/fill_number"
+        android:inputType="number"
+        android:maxLength="9" />
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/moreInfoContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/textViewMoroInfoTitleSearch"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/textbox"
+        android:ems="10"
+        android:hint="@string/short_title"
+        android:inputType="textPersonName"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:textColorLink="@color/black"
+        android:textCursorDrawable="@color/black"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editTextContent"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_alignStart="@+id/editTextTitle"
+        android:layout_below="@+id/editTextTitle"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/textbox"
+        android:ems="10"
+        android:hint="@string/content_title"
+        android:inputType="textMultiLine"
+        android:maxLength="120"
+        android:paddingBottom="70dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="55dp"
+        android:paddingTop="30dp"
+        android:textColorLink="@color/black"
+        android:textCursorDrawable="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textViewMoreInfoKind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextTitle"
+        android:layout_alignStart="@+id/editTextTitle"
+        android:layout_marginStart="13dp"
+        android:text="TextView"
+        android:textColor="@color/orange"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewMoreInfoCompany"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/orange"
+        android:textSize="16sp"
+        android:layout_above="@+id/editTextTitle"
+        android:layout_alignEnd="@+id/editTextTitle" />
+
+    <Button
+        android:id="@+id/more_info__accept_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextContent"
+        android:layout_centerHorizontal="true"
+        android:text="@string/accept_details" />
+
+    <TextView
+        android:id="@+id/textViewMoroInfoTitleSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="TextView"
+        android:textColor="@color/orange"
+        android:textSize="16sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_desktop_fragment"
+    tools:context="com.hyperactive.shilo.jobimshilo.drawer_layout.FindJobsFragment"
+    android:background="@color/white">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:id="@+id/relativeLayout2">
+
+        <Button
+            android:id="@+id/search_job_image_button"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:background="@drawable/find_jobs_button_shape"
+            android:elevation="0dp"
+            android:scaleType="fitCenter"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="@string/find_job_button2"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/windowsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayout2"
+        android:background="#e0e0ef">
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

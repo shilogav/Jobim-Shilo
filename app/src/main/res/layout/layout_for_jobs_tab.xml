@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_for_jobs_tab">
+
+    <CheckBox
+        android:id="@+id/careerCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:checked="false" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/careerCheckBox"
+        android:layout_alignBottom="@+id/careerCheckBox"
+        android:layout_toStartOf="@+id/careerCheckBox"
+        android:id="@+id/careerTextView"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/careerCheckBox"
+        android:layout_toStartOf="@+id/careerTextView"
+        android:id="@+id/textView3"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:id="@+id/careerImageView"
+        android:layout_height="25dp"
+        android:layout_width="25dp"
+        android:layout_marginStart="19dp"
+        android:layout_alignTop="@+id/careerTextView"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sky_4"
+    tools:context="com.hyperactive.shilo.jobimshilo.drawer_layout.InfoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_info_job_close"
+        android:id="@+id/companyTextView"
+        android:layout_marginTop="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textIsSelectable="false"
+        tools:textStyle="bold" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/companyTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:id="@+id/contentTextView"
+        android:text="@string/content_info_job_close"
+        android:layout_width="250dp"
+        android:textSize="20sp" />
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/locationContainer">
+
+
+    <TextView
+        android:text="@string/location_of_job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:id="@+id/textViewLocationOfJob"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editTextNewJobLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewLocationOfJob"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:ems="10"
+        android:hint="@string/address"
+        android:inputType="textPersonName"
+        android:visibility="invisible" />
+
+    <Button
+        android:text="@string/new_job_create_job_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/buttonNewJobAccept" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteNewJobLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:hint="@string/address"
+        android:layout_below="@+id/textViewLocationOfJob"
+        android:layout_alignStart="@+id/editTextNewJobLocation" />
+</RelativeLayout>

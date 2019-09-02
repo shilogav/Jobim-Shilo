@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="250dp"
+    android:layout_height="120dp"
+    android:background="@drawable/find_jobs_button_shape">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="@string/picture_dialog"
+        android:textColor="@color/white"
+        tools:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/picture_dialog_camera"
+        android:textColor="@color/darkpurple"
+        android:textSize="18sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/camera"
+        android:layout_alignBottom="@+id/camera"
+        android:layout_alignEnd="@+id/textView6"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/picture_dialog_gallery"
+        android:textColor="@color/darkpurple"
+        android:textSize="18sp"
+        android:typeface="serif" />
+</RelativeLayout>
